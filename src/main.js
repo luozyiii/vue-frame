@@ -9,6 +9,14 @@ Vue.config.productionTip = false
 
 Vue.use(vuePlugins)
 
+let debugMode = (process.env.APP_SWITCH_DEBUGTOOL === 'on')
+
+if (debugMode) {
+  const VConsole = require('vconsole')
+  /* eslint-disable no-new */
+  new VConsole()
+}
+
 new Vue({
   router,
   store,
