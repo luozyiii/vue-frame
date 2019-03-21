@@ -10,11 +10,9 @@ Vue.config.productionTip = false
 
 Vue.use(vuePlugins)
 
-let debugMode = (process.env.VUE_APP_SWITCH_DEBUGTOOL === 'on')
+let openDebugMode = (process.env.VUE_APP_SWITCH_DEBUGTOOL === 'on')
 
-console.log(process.env.VUE_APP_SWITCH_DEBUGTOOL)
-
-if (debugMode) {
+if (openDebugMode) {
   const VConsole = require('vconsole')
   /* eslint-disable no-new */
   new VConsole()
