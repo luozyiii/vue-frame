@@ -1,0 +1,18 @@
+// @import './color.scss';
+@import "./mixins.scss";
+// @import url("//at.alicdn.com/t/font_966718_507xwdrhrd.css");
+
+html,
+body {
+  width: 100%;
+  // height: 100%;
+  // font-family: PingFang-SC-Medium;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}

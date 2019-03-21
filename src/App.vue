@@ -12,3 +12,8 @@ export default {
   name: 'app'
 }
 </script>
+
+<style lang="scss">
+  @import "@/style/reset.scss";
+  @import "@/style/common.scss";
+</style>

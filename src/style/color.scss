@@ -1,0 +1,37 @@
+$d-primary-color: rgb(255, 64, 64); // element默认色
+
+// 背景
+$bg: #545c64; // 背景色
+
+// 文本
+$text-dark: #333; // 文本深色
+$text-gray: #545454; // 文本浅灰色
+$text-aux: #999; // 文本辅助颜色 提示色
+$text-pink: rgba(254, 73, 73, 1); // 文本 粉色
+$text-mark: rgb(239, 61, 61); // 文本 醒目字
+$text-default: rgb(254, 89, 69); // 文本 默认
+$text-extra: rgb(0, 153, 255); // 文本 特别颜色
+
+// 线条
+$line-light: rgb(227, 227, 227); // 线条浅色
+
+//tabs
+$tab-line: #f0f0f0;
+
+// 边框
+$bd-gray: rgba(245, 245, 245, 1); // 边框灰色
+$bd-light: rgba(230, 230, 230, 1); // 边框亮灰色
+$bd-radius: 5px;
+
+// 阴影
+$sd-primary: rgba(249, 53, 21, 0.3);
+
+// 按钮
+$btn-bg-primary: rgb(249, 53, 21);
+
+// dialog
+$dl-line: rgb(223, 223, 223); // 线条颜色
+
+// 表格
+$tb-border: rgb(240, 240, 240); // 边框颜色
+$tb-bg: #f8f8f9; // 背景颜色
