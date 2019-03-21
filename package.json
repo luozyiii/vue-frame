@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "lib-flexible": "^0.3.2",
+    "postcss-px2rem-exclude": "^0.0.6",
     "register-service-worker": "^1.6.2",
     "vconsole": "^3.3.0",
     "vue": "^2.6.6",

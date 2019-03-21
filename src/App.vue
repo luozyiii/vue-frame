@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home2</router-link> |
+      <router-link to="/" class="home">Home2</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
@@ -47,5 +47,9 @@ export default {
       color: #42b983;
     }
   }
+}
+
+.home {
+  font-size: 24px;
 }
 </style>

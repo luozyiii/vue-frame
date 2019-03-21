@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import 'lib-flexible/flexible.js'
 import './registerServiceWorker'
 import vuePlugins from './utils/plugins'
 
