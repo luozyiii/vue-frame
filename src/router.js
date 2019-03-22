@@ -27,6 +27,14 @@ export default new Router({
       // this generates a separate chunk (axios.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "axios" */ './views/examples/axios/Axios.vue')
+    },
+    {
+      path: '/examples/theme',
+      name: 'theme',
+      // route level code-splitting
+      // this generates a separate chunk (theme.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "theme" */ './views/examples/theme/Theme.vue')
     }
   ]
 })
